@@ -1,0 +1,56 @@
+@use "assets/scss/config/variables" as var;
+
+.Text {
+  word-break: break-all;
+  &.font {
+    &--h1 {
+      font-weight: var.$FONT_WEIGHT_HEADLINE;
+      font-size: var.$FONT_SIZE_HEADLINE_H1;
+    }
+
+    &--h2 {
+      font-weight: var.$FONT_WEIGHT_HEADLINE;
+      font-size: var.$FONT_SIZE_HEADLINE_H2;
+    }
+
+    &--h3 {
+      font-weight: var.$FONT_WEIGHT_HEADLINE;
+      font-size: var.$FONT_SIZE_HEADLINE_H3;
+    }
+
+    &--h4 {
+      font-weight: var.$FONT_WEIGHT_HEADLINE;
+      font-size: var.$FONT_SIZE_HEADLINE_H4;
+    }
+
+    &--h5 {
+      font-weight: var.$FONT_WEIGHT_HEADLINE;
+      font-size: var.$FONT_SIZE_HEADLINE_H5;
+    }
+
+    &--h6 {
+      font-weight: var.$FONT_WEIGHT_HEADLINE;
+      font-size: var.$FONT_SIZE_HEADLINE_H6;
+    }
+
+    &--xs {
+      font-weight: var.$FONT_WEIGHT_TEXT;
+      font-size: var.$FONT_SIZE_TEXT_XS;
+    }
+
+    &--sm {
+      font-weight: var.$FONT_WEIGHT_TEXT;
+      font-size: var.$FONT_SIZE_TEXT_SM;
+    }
+
+    &--md {
+      font-weight: var.$FONT_WEIGHT_TEXT;
+      font-size: var.$FONT_SIZE_TEXT_MD;
+    }
+
+    &--lg {
+      font-weight: var.$FONT_WEIGHT_TEXT;
+      font-size: var.$FONT_SIZE_TEXT_LG;
+    }
+  }
+}
